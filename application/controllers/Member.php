@@ -1,8 +1,8 @@
 <?php
 defined('BASEPATH') OR exit('No direct script access allowed');
-use Base;
 
-class Member extends Base {
+
+class Member extends Base_Controller {
     public function index(){
         $this->display('member/index');
     }
