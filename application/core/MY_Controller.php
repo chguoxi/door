@@ -1,7 +1,7 @@
 <?php
 defined('BASEPATH') OR exit('No direct script access allowed');
 
-class Base_Controller extends CI_Controller {
+class MY_Controller extends CI_Controller {
     
     public function display($tpl,$data=array(),$ret=false){
         $this->load->view('common/header');
